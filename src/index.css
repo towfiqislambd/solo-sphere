@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*====================== Swiper Slider CSS ========================*/
+
+/* Change pagination dot color */
+.swiper-pagination-bullet {
+    background-color: #fff !important;
+}
+/* Change active pagination dot color */
+.swiper-pagination-bullet-active {
+    background-color: #fff !important;
+}
+/* Change navigation arrow color */
+.swiper-button-prev,
+.swiper-button-next {
+    color: #fff !important;
+}
+/* Change navigation arrow color on hover */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: #fff !important;
+}
+
+/*===================== Custom Pagination CSS =======================*/
+
+.pagination {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.pagination button {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: #eee;
+    width: 45px;
+    height: 35px;
+}
+.pagination select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: #eee;
+    width: 50px;
+    height: 34px;
+}
+.pagination .active {
+    background: orange;
+}
